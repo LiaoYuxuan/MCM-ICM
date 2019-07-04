@@ -19,6 +19,7 @@ def bellman_ford(graph, start, goal):
         shortest_distance[node] = infinity
     shortest_distance[start] = 0
 
+    #结点数-1是循环的最高上界
     for iteration in range(1, graph.__len__()):
         # flag用于检测距离是否发生变化，若都不变，则可以提前结束循环
         flag = 0
