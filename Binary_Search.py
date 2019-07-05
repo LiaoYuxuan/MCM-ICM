@@ -40,5 +40,5 @@ def binary_seach_recursive(data, target, low, high):
             return binary_seach_recursive(data, target, mid + 1, high)
 
 
-print(binary_search_iterative(data, target))
-print(binary_seach_recursive(data, target, 0, len(data) - 1))
+# print(binary_search_iterative(data, target))
+# print(binary_seach_recursive(data, target, 0, len(data) - 1))
